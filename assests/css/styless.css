@@ -18,3 +18,25 @@ nav{
     box-shadow: 0px 2px 20px rgb(210, 233, 238);
     z-index: 1000;
 }
+nav img{
+    width: 10%;
+    height: 10%;
+    margin-left: 9%;
+
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ul{
+    
+    display: flex;
+gap: 15px;
+    margin: 0;
+    padding: auto;
+    justify-content: center;
+    list-style: none;
+    margin-left: 60px;
+  
+}
