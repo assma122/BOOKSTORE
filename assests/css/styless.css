@@ -1,0 +1,20 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    top:0;
+    width: 100%;
+    display: flex;
+    padding: 2%;
+    background-color: white;
+    align-items: center;
+    border: 2px solid white;
+    position: fixed;
+    box-shadow: 0px 2px 20px rgb(210, 233, 238);
+    z-index: 1000;
+}
