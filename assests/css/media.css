@@ -22,3 +22,49 @@ top : 99px;
     justify-content: center;
         
 }
+label[for="menu-check"] {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 28px;
+  z-index: 1101;
+}
+
+
+   #menu-check:checked ~ .ul.flex{
+    display: flex;}
+   label .open {
+    display: inherit;
+   }
+    .close{
+    display: none;
+   }
+  
+    #menu-check:checked ~ label .open{
+      display: none;}
+      #menu-check:checked ~ label .close{
+        display: inherit;
+      }
+      
+    .ul.flex{
+        display: none;
+        flex-direction: column;
+  position: absolute;
+  top: 81px;
+  background-color: rgba(253, 254, 255, 0.451);
+   width: 100%;
+ justify-content: center;
+  left: 0;
+    padding: 20px 0;
+backdrop-filter: blur(10px);
+   
+}
+header{
+  background-size: cover;
+                background-position: center;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+                 top: 0;
+            
+}
