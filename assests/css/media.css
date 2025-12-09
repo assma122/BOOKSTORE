@@ -1,0 +1,10 @@
+@media (max-width: 1222px) {
+    nav{
+        position: fixed;
+        width: 100%;
+        margin: 0;
+        padding:0; 
+        top: 0;
+    }
+    .ul.flex {
+        flex-direction: column;
