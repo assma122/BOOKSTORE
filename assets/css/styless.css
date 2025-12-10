@@ -12,3 +12,12 @@ position: absolute;
  text-align: center;
  font-size: 22px;
 }
+#New-Bloger{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5%;
+  margin: 1% 4% ; 
+
+
+}
