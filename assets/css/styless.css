@@ -1,10 +1,8 @@
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
 nav{
     top:0;
@@ -22,7 +20,6 @@ nav img{
     width: 10%;
     height: 10%;
     margin-left: 9%;
-
 }
 .flex {
   display: flex;
@@ -30,18 +27,15 @@ nav img{
   align-items: center;
 }
 .ul{
-    
     display: flex;
-gap: 15px;
+    gap: 15px;
     margin: 0;
     padding: auto;
     justify-content: center;
     list-style: none;
     margin-left: 60px;
-  
 }
 .ul li a{
-
     margin: 0 20px;
     font-size: 20px;
     color: black !important;
@@ -54,7 +48,7 @@ gap: 15px;
 .sarch{
     width: 50%;
     height: 50%;
-         justify-content : center;
+    justify-content : center;
     align-items: center;
 }
 .icon{
@@ -67,11 +61,8 @@ ul.flex{
 label .open , label .close{
   display: none;
 }
-
 body {
-  
   padding-top: 120px;
-
 }
 header {
   background-color: #f9f9f9;
@@ -82,22 +73,15 @@ header .cont{
     width: 50%;
     text-align: start;
     margin-left: 20px;
-    
 } 
-
 header h1{
-    
-
-
-     font-size: 4.5rem;
+  font-size: 4.5rem;
   font-weight: 700;
   margin: 0;
-  
 }
-
 header .book {
     color: hsl(181.57deg 90.53% 33.14%);
-      margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 header p{
     font-size: 17px;
@@ -113,22 +97,18 @@ header p{
     margin: 20px 0;
     text-decoration: none;
 } 
-
-
 header .img{
     width:auto;
 }
-
 #menu-check:checked ~ .ul.flex {
     display: flex;
 }
-
 .cards{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 20px 0;
-  gap: 5px;
+    gap: 5px;
 }
 .card{
     width:300px;
@@ -139,7 +119,7 @@ header .img{
     gap:3px;
 }
 .ico{
-color: hsl(181.57deg 90.53% 33.14%);
+    color: hsl(181.57deg 90.53% 33.14%);
     font-size: 40px;
     line-height: 1.8;
 }
@@ -149,14 +129,14 @@ color: hsl(181.57deg 90.53% 33.14%);
     font-weight: 450;
     margin-bottom: 30px;
 }
- .about{
+.about{
    margin-top:3%;
- }
- .about p{
+}
+.about p{
     font-size: 20px;
     font-weight: 250;
     margin-bottom: 30px;
- }
+}
 .cont h2{
     font-size: 50px;
     color: #070707;
@@ -167,7 +147,6 @@ color: hsl(181.57deg 90.53% 33.14%);
     width: 50%;
     height:auto;
 } 
-
 root {
     --main-color: #efefef;
     --primary-color: #1d2d3d;
@@ -181,103 +160,90 @@ root {
     --red-color: #d9534f;
     --white-color: #fff;
     --Strong-Cyan:#089da1;
-  }
-
-    * {
+}
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+body {
     font-family: Arial, sans-serif;
     background-color: #fff;
     color: #333;
-  }
-
-  .button-learn3{
-  color: black;
-  background-color:white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin:0;
-  font-size: 14px;
-  cursor: pointer;
-  border: 2px solid var(--Strong-Cyan);
-
- 
-
+}
+.button-learn3{
+    color: black;
+    background-color:white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin:0;
+    font-size: 14px;
+    cursor: pointer;
+    border: 2px solid var(--Strong-Cyan);
 }
 .button-learn3:hover {
   background-color: #007777;
 }
-
 .Digital-Book img{
-width: 100%;
-height: auto;
+    width: 100%;
+    height: auto;
 }
 .Digital-Book {
-position: relative;
-display: inline-block;
-margin-right: 0;
+    position: relative;
+    display: inline-block;
+    margin-right: 0;
 }
 .Digital-Book input {
-position: absolute;
-      top: 70%;  
-      left: 7%;
-      padding: 5px;
-      font-size: 16px;
-      background-color: var(--Strong-Cyan);
-      color: black;
- }
+    position: absolute;
+    top: 70%;  
+    left: 7%;
+    padding: 5px;
+    font-size: 16px;
+    background-color: var(--Strong-Cyan);
+    color: black;
+}
 .our-blog{
-  margin-top: 2%;
- text-align: center;
- font-size: 22px;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 22px;
 }
 #New-Bloger{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 5%;
-  margin: 1% 4% ; 
-
-
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5%;
+    margin: 1% 4% ; 
 }
 #New-Bloger > div{
-  padding:  2%;
-  gap: 10px;
-  border: 1px solid;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items:flex-start;
-  border-color: white;
-  } 
-#New-Bloger img{
-  width: 404.76px;
-  height: 269.63;
-margin: 0;
-  object-fit: cover; 
+    padding:  2%;
+    gap: 10px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    border-color: white;
 } 
-
+#New-Bloger img{
+    width: 404.76px;
+    height: 269.63px;
+    margin: 0;
+    object-fit: cover; 
+} 
 #New-Bloger p{
-  text-align: justify;
-  word-spacing: 0;
-
+    text-align: justify;
+    word-spacing: 0;
 }
 #New-Bloger h1{
-  color: var(--Strong-Cyan);
-
+    color: var(--Strong-Cyan);
 }
 #New-Bloger i{
-  color: var(--Strong-Cyan);
-
+    color: var(--Strong-Cyan);
 }
 .icons-Bloger{
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: space-between;
-  width: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
 }
