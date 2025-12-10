@@ -91,7 +91,34 @@ header h1{
 
      font-size: 4.5rem;
   font-weight: 700;
- 
   margin: 0;
   
+}
+
+header .book {
+    color: hsl(181.57deg 90.53% 33.14%);
+      margin-bottom: 30px;
+}
+header p{
+    font-size: 17px;
+    color: #070707;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.button {
+    background-color: hsl(181.57deg 90.53% 33.14%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+    text-decoration: none;
+} 
+
+
+header .img{
+    width:auto;
+}
+
+#menu-check:checked ~ .ul.flex {
+    display: flex;
 }
