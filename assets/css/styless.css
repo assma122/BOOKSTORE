@@ -21,3 +21,25 @@ position: absolute;
 
 
 }
+#New-Bloger > div{
+  padding:  2%;
+  gap: 10px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-start;
+  border-color: white;
+  } 
+#New-Bloger img{
+  width: 404.76px;
+  height: 269.63;
+margin: 0;
+  object-fit: cover; 
+} 
+
+#New-Bloger p{
+  text-align: justify;
+  word-spacing: 0;
+
+}
