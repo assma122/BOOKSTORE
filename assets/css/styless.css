@@ -167,3 +167,57 @@ color: hsl(181.57deg 90.53% 33.14%);
     width: 50%;
     height:auto;
 } 
+
+root {
+    --main-color: #efefef;
+    --primary-color: #1d2d3d;
+    --secondary-color:#495e74 ;
+    --gray-color: #778697;
+    --dark-color: #292b2c;
+    --blue-color: #0275d8;
+    --green-color: #27ae60;
+    --green-sea-color: #16a085;
+    --pumpkin-color: #d35400;
+    --red-color: #d9534f;
+    --white-color: #fff;
+    --Strong-Cyan:#089da1;
+  }
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+
+  .button-learn3{
+  color: black;
+  background-color:white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin:0;
+  font-size: 14px;
+  cursor: pointer;
+  border: 2px solid var(--Strong-Cyan);
+
+ 
+
+}
+.button-learn3:hover {
+  background-color: #007777;
+}
+
+.Digital-Book img{
+width: 100%;
+height: auto;
+}
+.Digital-Book {
+position: relative;
+display: inline-block;
+margin-right: 0;
+}
